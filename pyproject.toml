@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "telegramuniversitybot"
+version = "0.1.0"
+description = ""
+authors = ["x1ryrg <zhdamarov-vladimir@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+aiogram = "^3.20.0.post0"
+python-dotenv = "^1.1.0"
+redis = "^6.2.0"
+requests = "^2.32.4"
+pyjwt = "^2.10.1"
+python-dateutil = "^2.9.0.post0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
